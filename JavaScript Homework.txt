@@ -1,0 +1,10 @@
+git clone maryrose-hw homework
+ls
+cd homework
+git branch homework-comments
+git checkout homework-comments
+git add homework.js
+git commit -m "add comments to homework"
+git push origin homework-comments
+cd ../maryrose-hw
+git branch
